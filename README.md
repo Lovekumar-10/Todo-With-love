@@ -1,16 +1,57 @@
-# React + Vite
+# Todo App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and beginner-friendly **Todo App** built using **React JS**.  
+This project focuses on writing readable code, proper folder structure, and clear separation of UI panels.
 
-Currently, two official plugins are available:
+Built with learning and scalability in mind.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ➕ Add new tasks  
+- ❌ Delete tasks  
+- 📋 View active tasks  
+- 🧱 Panel-based layout structure  
+- ⚡ Fast development with Vite  
+- 🧠 Clean and understandable React logic  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React JS**
+- **JavaScript (ES6)**
+- **HTML**
+- **CSS**
+- **Vite**
+
+---
+
+## Learning Outcome
+
+- Component-based architecture  
+- State management using `useState`  
+- Clean folder structure  
+- Separating layout and feature panels  
+- Writing human-readable React code  
+
+---
+
+## Future Improvements
+
+- ✏️ Edit task feature  
+- ✅ Mark tasks as completed  
+- 💾 Save tasks using localStorage  
+- 🎨 Improve UI and theming  
+
+---
+
+## Author
+
+**Love Kumar**  
+Frontend Developer | React Learner  
+📍 New Delhi, India  
+
+---
+
+⭐ If you like this project, feel free to star the repository!
