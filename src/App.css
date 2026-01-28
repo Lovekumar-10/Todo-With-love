@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --paper-bg: #f6f5f2;
+  --paper-card: #fbfbf9;
+  --ink-main: #2e2e2e;
+  --ink-muted: #6b6b6b;
+  --ink-accent: #4a6fa5;
+  --border-soft: #e6e6e3;
+}
+
+/* Dark theme tokens */
+.dark {
+  --paper-bg: #121212;
+  --paper-card: #1a1a1a;
+  --ink-main: #f1f1f1;
+  --ink-muted: #9a9a9a;
+  --ink-accent: #7aa2d6;
+  --border-soft: #2a2a2a;
+}
+
+
+/* PAGE BACKGROUND — PAPER (DOTS) */
+ 
+.paper-bg {
+  background-color: var(--paper-bg);
+
+  background-image:
+    radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.058) 1.3px,
+      transparent 1px
+    );
+
+  /* Consistent spacing */
+  background-size: 15px 15px;
+  background-repeat: repeat;
+
+  transition: background-color 1.2s ease;
+}
+
+/* Night mode dots (same size & spacing) */
+.dark .paper-bg {
+  background-image:
+    radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.127) 1px,
+      transparent 1px
+    );
+}
+
+
+.paper-card {
+  background-color: var(--paper-card);
+  border-color: var(--border-soft);
+  transition: background-color 1.2s ease, border-color 1.2s ease;
+}
+
+
+.text-main {
+  color: var(--ink-main);
+  transition: color 1.2s ease;
+}
+
+.text-muted {
+  color: var(--ink-muted);
+  transition: color 1.2s ease;
+}
+
+.text-accent {
+  color: var(--ink-accent);
+  transition: color 1.2s ease;
+}
+
+.border-soft {
+  border-color: var(--border-soft);
+  transition: border-color 1.2s ease;
+}
